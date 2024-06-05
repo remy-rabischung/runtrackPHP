@@ -1,10 +1,10 @@
 <?php
 
-function hello(){
-    echo "Hello LaPlateforme!";
+function hello(): string{
+    return "Hello LaPlateforme!";
 }
 
-hello();
+echo (hello());
 
 ?>
 
